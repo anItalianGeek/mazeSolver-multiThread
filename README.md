@@ -1,5 +1,11 @@
 # MazeSolver MultiThread
 
+> Second take on the same problem. The first
+> ([maze-solver](https://github.com/anItalianGeek/maze-solver), C#, 2023) solved mazes
+> single-threaded with backtracking. This one, written a year later right after the
+> concurrent programming course, explores in parallel: each `PathFinder` extends `Thread`,
+> shared state is guarded by a `Semaphore`, and the GUI shows the search as it happens.
+
 MazeSolver MultiThread is a Java project designed to solve mazes using multithreading. This project leverages concurrency to explore paths within a maze, providing an efficient and visually engaging solution. Below is an overview of the project and instructions for running it.
 
 ## Project Description
