@@ -5,6 +5,8 @@
 > single-threaded with backtracking. This one, written a year later right after the
 > concurrent programming course, explores in parallel: each `PathFinder` extends `Thread`,
 > shared state is guarded by a `Semaphore`, and the GUI shows the search as it happens.
+>
+> Kept as a learning archive, without active development or maintenance.
 
 MazeSolver MultiThread is an educational Java application developed following a high school concurrent programming course to explore parallel search strategies. Building upon an earlier single-threaded backtracking maze solver, this project implements concurrent exploration where multiple threads traverse branches simultaneously and visualize their progress in real time via Java Swing.
 
